@@ -32,6 +32,9 @@
             "args": [
                 "test",
                 "${workspaceFolder}/test/Library.Test/Library.Test.csproj",
+                "/p:CollectCoverage=true",
+                "/p:CoverletOutputFormat=lcov",
+                "/p:CoverletOutput=lcov.info",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
